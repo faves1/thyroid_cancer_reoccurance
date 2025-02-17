@@ -1,6 +1,7 @@
 # **Thyroid Cancer Recurrence Prediction Model**
 
 This project uses machine learning to predict the likelihood of recurrence in thyroid cancer patients based on various clinical and demographic factors. The model is built using **Random Forest** and optimized with **hyperparameter tuning** and **feature selection**. The model is deployed using **Streamlit** for easy access and user interaction.
+**Live Link** : https://thyroid-reoccurance-prediction.streamlit.app/
 
 ## **Table of Contents**
 - [Project Overview](#project-overview)
