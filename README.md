@@ -42,5 +42,5 @@ To get started, you need Python 3.x and the following libraries:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/thyroid-cancer-recurrence-prediction.git
-   cd thyroid-cancer-recurrence-prediction
+   git clone https://github.com/yourusername/thyroid-cancer-recurrence.git
+   cd thyroid-cancer-recurrence
