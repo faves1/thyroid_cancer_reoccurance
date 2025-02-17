@@ -41,15 +41,17 @@ To train the model, we used a dataset with the following features:
 
 - **Demographics**: Age, gender, smoking history.
 - **Clinical features**: Tumor size, lymph node involvement, cancer stage, and treatment response.
-1. Data Preprocessing:
+1. **Data Preprocessing:**
 
--- Handling missing values, duplicates.
-Encoding categorical variables using LabelEncoder.
-Scaling numerical features (like Age) using StandardScaler.
-Model Building:
+    - Handling missing values, duplicates.
+    - Encoding categorical variables using LabelEncoder.
+    - Scaling numerical features (like Age) using StandardScaler.
+    
+2. **Model Building:**
 
-We built a Random Forest Classifier model and optimized it using RandomizedSearchCV for hyperparameter tuning.
-Recursive Feature Elimination (RFE) was used to select the top 7 most important features.
-Model Saving:
+  - We built a Random Forest Classifier model and optimized it using RandomizedSearchCV for hyperparameter tuning.
+  - Recursive Feature Elimination (RFE) was used to select the top 7 most important features.
+
+3. **Model Saving:**
 
 The trained model is saved using joblib (thyroid_recurrence_model.pkl).
